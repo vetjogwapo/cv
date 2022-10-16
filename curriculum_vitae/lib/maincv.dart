@@ -39,7 +39,7 @@ class FourthRoute extends StatelessWidget {
                   style: TextStyle(
                     fontFamily: 'Orpheus',
                     fontSize: 35.0,
-                    color: Colors.white,
+                    color: Colors.blueGrey,
                     fontWeight: FontWeight.normal,
                   ),
                 ),
@@ -122,7 +122,8 @@ class FourthRoute extends StatelessWidget {
                   ),
                   label: Text('Logout'), // <-- Text
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.redAccent,
+                    onPrimary: Colors.white,
+                    primary: Colors.redAccent,
                     padding:
                         const EdgeInsets.symmetric(horizontal: 21, vertical: 5),
                   ),
