@@ -121,7 +121,7 @@ class _ThirdRouteState extends State<ThirdRoute> {
                           keyboardType: TextInputType.number,
                           validator: (value) {
                             if (value!.isEmpty) {
-                              return 'Please enter phone no ';
+                              return 'Please enter phone number ';
                             }
                             return null;
                           },
