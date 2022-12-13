@@ -25,7 +25,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Curriculum Vitae - @ZDev&apos;sKurt" >
+        android:label="CV" >
         <activity
             android:name="co.appbrewery.micard.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"

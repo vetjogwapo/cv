@@ -1,4 +1,4 @@
-#Sun Oct 16 21:50:46 SGT 2022
-base.0=C\:\\Flutter - ZDev'sKurt\\Curriculum Vitae - Flutter\\curriculum_vitae\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Tue Dec 13 13:54:33 CST 2022
+base.0=C\:\\Users\\User\\StudioProjects\\vetjo\\CV\\curriculum_vitae\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

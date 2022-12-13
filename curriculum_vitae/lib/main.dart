@@ -27,7 +27,7 @@ class HomeRoute extends StatelessWidget {
           constraints: BoxConstraints.expand(),
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("images/main.png"), fit: BoxFit.cover)),
+                  image: AssetImage("images/bg.png"), fit: BoxFit.cover)),
           padding: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -37,31 +37,33 @@ class HomeRoute extends StatelessWidget {
                 children: [
                   Padding(padding: EdgeInsets.only(top: 150)),
                   Text(
-                    "Hello!",
+                    "Hello again!",
                     style: TextStyle(
                         fontFamily: 'Orpheus',
                         color: Colors.grey[800],
                         fontWeight: FontWeight.normal,
                         fontSize: 50),
                   ),
-                  SizedBox(
-                    height: 30,
-                  ),
                   Text(
-                    "Login or Sign Up?",
+                    "Welcome back, you\'ve been missed!",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: Colors.black,
-                        fontSize: 20,
+                        fontSize: 15,
                         fontWeight: FontWeight.bold),
                   ),
+                  SizedBox(
+                    height: 10,
+                  ),
+
+
                   MaterialButton(
                     minWidth: double.infinity,
                     height: 60,
                     onPressed: () {
                       Navigator.pushNamed(context, '/second');
                     },
-                    color: Colors.greenAccent[400],
+                    color: Color.fromARGB(255, 0, 174, 255),
                     shape: RoundedRectangleBorder(
                         side: BorderSide(
                           color: Colors.black,
@@ -75,6 +77,8 @@ class HomeRoute extends StatelessWidget {
                           color: Colors.white),
                     ),
                   ),
+
+
                   Padding(padding: EdgeInsets.only(top: 10)),
                   MaterialButton(
                     minWidth: double.infinity,
@@ -82,7 +86,7 @@ class HomeRoute extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushNamed(context, '/third');
                     },
-                    color: Colors.blueAccent[400],
+                    color: Color.fromARGB(255, 0, 174, 255),
                     shape: RoundedRectangleBorder(
                         side: BorderSide(
                           color: Colors.black,

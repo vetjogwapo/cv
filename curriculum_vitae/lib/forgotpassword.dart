@@ -23,7 +23,8 @@ class ForgotRoute extends StatelessWidget {
         constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("images/login.png"), fit: BoxFit.cover)),
+                image: AssetImage("images/bg.png"), fit: BoxFit.cover)),
+                
         child:
             Column(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
           Column(
@@ -31,20 +32,10 @@ class ForgotRoute extends StatelessWidget {
               Column(
                 children: [
                   Text(
-                    "Forgot Password",
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                    "Enter your registered email",
+                    "Please enter your email to search for your account.",
                     style: TextStyle(
                       fontSize: 15,
-                      color: Colors.grey[700],
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(
@@ -52,6 +43,8 @@ class ForgotRoute extends StatelessWidget {
                   )
                 ],
               ),
+
+              
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 40),
                 child: Column(
@@ -82,7 +75,7 @@ class ForgotRoute extends StatelessWidget {
                           new MaterialPageRoute(
                               builder: (context) => new ForgotRoute()));
                     },
-                    color: Colors.yellowAccent[400],
+                    color: Color.fromARGB(255, 0, 174, 255),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(40)),
                     child: Text(

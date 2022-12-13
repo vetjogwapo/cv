@@ -26,16 +26,16 @@ class FourthRoute extends StatelessWidget {
             constraints: BoxConstraints.expand(),
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("images/cv.png"), fit: BoxFit.cover)),
+                    image: AssetImage("images/bg.png"), fit: BoxFit.cover)),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
                   radius: 70.0,
-                  backgroundImage: AssetImage('images/avatar.png'),
+                  backgroundImage: AssetImage('images/avatar.jpeg'),
                 ),
                 Text(
-                  'Kurt Z. De Vera',
+                  'Jovet Neri. Calachan',
                   style: TextStyle(
                     fontFamily: 'Orpheus',
                     fontSize: 35.0,
@@ -48,7 +48,7 @@ class FourthRoute extends StatelessWidget {
                   'ABOUT ME',
                   style: TextStyle(
                     fontFamily: 'Source Sans Pro',
-                    color: Colors.lightBlueAccent,
+                    color: Color.fromARGB(255, 0, 7, 10),
                     fontSize: 17.0,
                     letterSpacing: 2.5,
                     fontWeight: FontWeight.bold,
@@ -72,7 +72,9 @@ class FourthRoute extends StatelessWidget {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 7, vertical: 8),
                   ),
-                ), // ElevatedButton
+                ),
+                SizedBox(height: 10,),// ElevatedButton
+
                 ElevatedButton.icon(
                   onPressed: () {
                     Navigator.push(
@@ -91,7 +93,9 @@ class FourthRoute extends StatelessWidget {
                     padding:
                         const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
                   ),
-                ), // ElevatedButton
+                ),
+                SizedBox(height: 10,),// ElevatedButton
+
                 ElevatedButton.icon(
                   onPressed: () {
                     Navigator.push(
@@ -166,7 +170,7 @@ class FifthRoute extends StatelessWidget {
                   color: Colors.blueGrey,
                 ),
                 title: Text(
-                  'Name: KURT ZARATE DE VERA',
+                  'Name: JOVET NERI. CALACHAN',
                   style: TextStyle(
                     color: Color.fromARGB(255, 0, 0, 0),
                     fontFamily: 'Source Sans Pro',
@@ -183,9 +187,9 @@ class FifthRoute extends StatelessWidget {
                   color: Colors.blueGrey,
                 ),
                 title: Text(
-                  'Address: Idoldol, Calasiao, Pang' +
-                      '\nPhone Number: +639104894343' +
-                      '\nEmail: deverapromaker@gmail.com',
+                  'Address: Ambonao, Calasiao, Pangasinan' +
+                      '\nContact No.: +639504663145' +
+                      '\nEmail: calachanjovet@gmail.com',
                   style: TextStyle(
                     color: Color.fromARGB(255, 0, 0, 0),
                     fontFamily: 'Source Sans Pro',
@@ -275,7 +279,7 @@ class SixthRoute extends StatelessWidget {
               margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
               child: ListTile(
                 title: Text(
-                  'Parayao National Highschool',
+                  'Bued National High School',
                   style: TextStyle(
                     color: Color.fromARGB(255, 0, 0, 0),
                     fontFamily: 'Source Sans Pro',
@@ -289,14 +293,14 @@ class SixthRoute extends StatelessWidget {
               margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
               child: ListTile(
                 title: Text(
-                  'Parayao National Highschool',
+                  'Bued National High School',
                   style: TextStyle(
                     color: Color.fromARGB(255, 0, 0, 0),
                     fontFamily: 'Source Sans Pro',
                     fontSize: 20.0,
                   ),
                 ),
-                subtitle: Text('Junior High School 2011-2017'),
+                subtitle: Text('Junior High School 2012-2017'),
               ),
             ),
             Card(
@@ -319,14 +323,14 @@ class SixthRoute extends StatelessWidget {
               margin: EdgeInsets.symmetric(vertical: 5.0, horizontal: 25.0),
               child: ListTile(
                 title: Text(
-                  'Idoldol Elementary School',
+                  'Bued Elementary School',
                   style: TextStyle(
                     color: Color.fromARGB(255, 0, 0, 0),
                     fontFamily: 'Source Sans Pro',
                     fontSize: 20.0,
                   ),
                 ),
-                subtitle: Text('2015-2011'),
+                subtitle: Text('2006-2012'),
               ),
             ),
           ],

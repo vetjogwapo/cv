@@ -41,7 +41,7 @@ class _ThirdRouteState extends State<ThirdRoute> {
           constraints: BoxConstraints.expand(),
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("images/signup.png"), fit: BoxFit.cover)),
+                  image: AssetImage("images/bg.png"), fit: BoxFit.cover)),
           child: SingleChildScrollView(
             child: Form(
               key: _formKey,
@@ -61,18 +61,15 @@ class _ThirdRouteState extends State<ThirdRoute> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          SizedBox(
-                            height: 20,
-                          ),
                           Text(
-                            "Create an Account,Its free",
+                            "It’s quick and easy.",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.grey[700],
                             ),
                           ),
                           SizedBox(
-                            height: 30,
+                            height: 20,
                           )
                         ],
                       ),
@@ -196,7 +193,7 @@ class _ThirdRouteState extends State<ThirdRoute> {
                                 print("UnSuccessfull");
                               }
                             },
-                            color: Colors.blueAccent,
+                            color: Color.fromARGB(255, 0, 174, 255),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(40)),
                             child: Text(

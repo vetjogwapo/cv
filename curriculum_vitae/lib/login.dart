@@ -38,7 +38,7 @@ class _SecondRouteState extends State<SecondRoute> {
                 constraints: BoxConstraints.expand(),
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("images/login.png"),
+                        image: AssetImage("images/bg.png"),
                         fit: BoxFit.cover)),
                 child: SingleChildScrollView(
                   child: Form(
@@ -61,6 +61,8 @@ class _SecondRouteState extends State<SecondRoute> {
                                 SizedBox(
                                   height: 20,
                                 ),
+
+
                                 Text(
                                   "Welcome back ! Login with your credentials",
                                   style: TextStyle(
@@ -73,6 +75,8 @@ class _SecondRouteState extends State<SecondRoute> {
                                 )
                               ],
                             ),
+
+                            
                             Padding(
                               padding: const EdgeInsets.only(
                                   bottom: 15, left: 10, right: 10),
@@ -90,6 +94,8 @@ class _SecondRouteState extends State<SecondRoute> {
                                 },
                               ),
                             ),
+
+
                             Padding(
                               padding: const EdgeInsets.only(
                                   bottom: 15, left: 10, right: 10),
@@ -133,7 +139,7 @@ class _SecondRouteState extends State<SecondRoute> {
                                       return null;
                                     }
                                   },
-                                  color: Colors.greenAccent[400],
+                                  color: Color.fromARGB(255, 0, 174, 255),
                                   shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(40)),
                                   child: Text(
@@ -149,37 +155,53 @@ class _SecondRouteState extends State<SecondRoute> {
                             SizedBox(
                               height: 20,
                             ),
+                            
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Text("Dont have an account?"),
                                 TextButton(
                                     child: Text(
-                                      "Sign Up",
+                                      "Forgot password?",
                                       style: TextStyle(
                                           fontWeight: FontWeight.w600,
-                                          fontSize: 18),
+                                          fontSize: 15),
+                                    ),
+                                    onPressed: () {
+                                Navigator.push(
+                                    context,
+                                    new MaterialPageRoute(
+                                        builder: (context) =>
+                                            new ForgotRoute()));
+                              },),
+                              ],
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text("Not a Member?"),
+                                TextButton(
+                                    child: Text(
+                                      "Register now",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 15),
                                     ),
                                     onPressed: () {
                                       Navigator.pushNamed(context, '/third');
                                     }),
                               ],
                             ),
-                            Padding(padding: EdgeInsets.only(top: 140)),
+                            Padding(padding: EdgeInsets.only(top: 100)),
                             TextButton(
                               child: Text(
-                                "Forgot Password?",
-                                style: TextStyle(
-                                    fontWeight: FontWeight.w600, fontSize: 18),
-                              ),
-                              onPressed: () {
-                                Navigator.push(
-                                    context,
-                                    new MaterialPageRoute(
-                                        builder: (context) =>
-                                            new ForgotRoute()));
-                              },
-                            ),
+                                "Go back to Home Page",
+                                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
+                                ),
+                                onPressed: () {
+                                  Navigator.pushNamed(context, '/');
+                                  },
+                                  ),
+                            
                           ],
                         ),
                       ],
