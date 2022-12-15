@@ -3,6 +3,7 @@ Create a curriculum vitae in flutter.
 This amazing app is provided in open source. So, helpful contributions are highly appreciated.
 
 ## ScreenShots 📱
+| <img src="screenshots/homepage.png"  width="300"/> | <img src="screenshots/loginpage.png" width="300"/>  | <img src="screenshots/signuppage.png" width="300"/>  | <img src="screenshots/forgotPWpage.png" width="300"/>  |
 
 ## What you will create 🖥️
 
