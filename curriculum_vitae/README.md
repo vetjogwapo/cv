@@ -2,7 +2,7 @@
 Create a curriculum vitae in flutter.
 This amazing app is provided in open source. So, helpful contributions are highly appreciated.
 
-## ScreenShots
+## ScreenShots 📱
 
 ## What you will create
 
