@@ -1,14 +1,12 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Beautiful Login Page In Flutter
+Create a login page and dashboard for queuing system in flutter.
+This amazing app is provided in open source. So, helpful contributions are highly appreciated.
 
-# mi_card
-
-## Our Goal
-
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+## ScreenShots
 
 ## What you will create
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+Curriculum Vitae is a brief information of a person's education, qualifications, and previous experience, typically sent with a job application. Imagine every time you wanted to give someone your contact details or your resume but you didn't have it on you. Well, now you can get them to download your curriculum vitae as an app.
 
 ## What you will learn
 
