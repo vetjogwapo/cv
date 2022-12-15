@@ -8,7 +8,7 @@ This amazing app is provided in open source. So, helpful contributions are highl
 
 Curriculum Vitae is a brief information of a person's education, qualifications, and previous experience, typically sent with a job application. Imagine every time you wanted to give someone your contact details or your resume but you didn't have it on you. Well, now you can get them to download your curriculum vitae as an app.
 
-## What you will learn
+## What you will learn 📖
 
 * How to create Stateless Widgets
 * What is hot reload and hot refresh
@@ -23,7 +23,7 @@ Curriculum Vitae is a brief information of a person's education, qualifications,
 
 ![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
 
-### :heart: Found this project useful?
+### 💗 Found this project useful?
 If you found this project useful, then please consider giving it a :star: on Github and Follow me on my Social media account.
 ## Project Created & Maintained By
 ### Calachan Jovet, N.
