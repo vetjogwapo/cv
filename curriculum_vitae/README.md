@@ -21,6 +21,10 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 * How to style Text widgets
 * How to read and use Flutter Documentation
 
+>This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+
+![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+
 ### :heart: Found this project useful?
 
 If you found this project useful, then please consider giving it a :star: on Github and Follow me on my Social media account.
@@ -31,8 +35,3 @@ If you found this project useful, then please consider giving it a :star: on Git
 ### Calachan Jovet, N.
 
 <a href="https://www.facebook.com/vetjogwapo/"><img src="https://raw.githubusercontent.com/aritraroy/social-icons/master/facebook-icon.png" width="60"></a>
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
