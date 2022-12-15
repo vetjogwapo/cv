@@ -26,12 +26,7 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 ![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
 
 ### :heart: Found this project useful?
-
 If you found this project useful, then please consider giving it a :star: on Github and Follow me on my Social media account.
-
-
 ## Project Created & Maintained By
-
 ### Calachan Jovet, N.
-
 <a href="https://www.facebook.com/vetjogwapo/"><img src="https://raw.githubusercontent.com/aritraroy/social-icons/master/facebook-icon.png" width="60"></a>
